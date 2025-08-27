@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+//import React, { useState, useEffect, useRef } from "react";
 import Home from "../pages/Home.tsx";
 import Team from "../pages/Team.tsx";
 import Publications from "../pages/Publications.tsx";
@@ -6,7 +6,7 @@ import Gallery from "../pages/Gallery.tsx";
 import Merch from "../pages/Merch.tsx";
 import Contact from "../pages/Contact.tsx";
 import Error from "../pages/Error.tsx";
-import gsap from "gsap";
+//import gsap from "gsap";
 
 import {
   BrowserRouter as Router,
