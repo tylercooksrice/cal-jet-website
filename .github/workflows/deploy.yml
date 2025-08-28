@@ -16,8 +16,11 @@ jobs:
         run: |
           echo "Running tests for dev branch..."
           # put your test/build commands here (npm test, pytest, etc.)
+
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # required for pushing to gh-pages
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
